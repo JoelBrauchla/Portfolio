@@ -5,26 +5,26 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" href="portfolioStyles.css"/>
   </head>
-  
-  
+
+
   <body>
     <div id="mainGridContainer">
-         
+
     <div id="header">
       <div id="welcome">
       <h1>Joel's Digital Space</h1>
-      <!-- <img class="bannerPhoto" src="... Pictures/portfolio/banner1.jpeg"> -->
+      <img class="bannerPhoto" src="portfolio/banner1.jpeg">
             <img class="bannerPhoto" src="(G:)/My Drive/portfolio/textFiles/images/portdolioBackground.jpeg">
       </div>
      </div>
-     
+
      <div id="banner">
       <div id="overview">
         <h1>Overview</h1>
           <p>Welcome to Joel Brauchla's Digital Space Console blah.<br>
           Please browse through the space I have been creating...</pre>
       </div>
-    
+
       <div id="projects">
         <h1>Professional Project Portfolio</h1>
               <p>As a student of Human-Computer Interaction (HCI) I have explored and collaborated in the design of a variety of original applications. </p>
@@ -34,21 +34,21 @@
           <h2>Mechanical Mantra</h2>
             <h3>Cholera</h3>
             <h3>Indoor Wayfinding</h3>
-            <h3>Rewriting the Rules of Retail</h3>  
-            <h3>Water Weight</h3>        
+            <h3>Rewriting the Rules of Retail</h3>
+            <h3>Water Weight</h3>
         </div>
-      
+
        <div id="researchArticles">
         <h1>Academic Research and Exploration</h1>
               <p>Prior to my current professional interests in HCI I considered myself to be a Behavioral Economist with a philiosophy grounded in Mathematics.</p>
             <h3>Characterizing Consumer Preferences over Garbage</h3>
             <h3>When is Cheating Optimal? - An Economic Model Based On Volkswagon Emission Scandal</h3>
-            <h3>A Generalized Utility Analysis</h3> 
+            <h3>A Generalized Utility Analysis</h3>
       </div>
     </div>
-  
-    
-    
+
+
+
     <div id="footer">
       <div id="digitalAssistant">
         <h1>Footer</h1>
@@ -57,7 +57,7 @@
       </div>
     </div>
     </div>
-  
+
     <div id="root">
     </div>
 
@@ -69,6 +69,6 @@
       svg.append('text').text('Digital Assistant').attr('x',25).attr('y',40).attr('font-style','spectral').attr('font-weight','bold');
       const svg2 = d3.select(".overview").append("svg").attr('width',500).attr('height',200).style('background-color','lightGray');
     </script>
-   
+
 </body>
 </html>
