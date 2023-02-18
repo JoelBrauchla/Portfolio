@@ -1,11 +1,5 @@
 /*First I define the main/overarching grid of our website: the header, banner, and footer
-.mainGridContainer {
-  display: grid;
-  grid-template:1fr 9fr 2fr/1fr 1fr 1fr;
-  row-gap:0px;
-  background-color:#E0F6FF;
-  border:1px dashed #1E96FF;
-}
+
 .header {
   grid-row:span 1;
   grid-column:span 3;
@@ -25,6 +19,7 @@
   row-gap:0px;
   border:1px 'black';
 }
+ 
 .footer {
   grid-row:span 2;
   grid-column:span 3;
@@ -56,7 +51,7 @@ h1 {
   text-align:center;
   margin:2px;
 }
-.professionalProjectPortfolio {
+.projects {
   grid-row:span 1;
   grid-column:span 1;
   background-color:1E96FF;
