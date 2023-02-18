@@ -1,4 +1,4 @@
-/*First I define the main/overarching grid of our website: the header, banner, and footer*/
+/*First I define the main/overarching grid of our website: the header, banner, and footer
 .mainGridContainer {
   display: grid;
   grid-template:1fr 9fr 2fr/1fr 1fr 1fr;
@@ -32,6 +32,7 @@
   color;'white';
   text-align:center;
 }
+*/
 
 
 
