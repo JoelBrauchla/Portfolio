@@ -1,4 +1,4 @@
-/*First I define the main/overarching grid of our website: the header, banner, and footer
+/*First I define the main/overarching grid of our website: the header, banner, and footer*/
 
 .header {
   grid-row:span 1;
@@ -27,7 +27,6 @@
   color;'white';
   text-align:center;
 }
-*/
 
 h1 {
   text-align:center;
@@ -40,6 +39,7 @@ h1 {
 .bannerContainer {
 }
 .bannerPhoto{
+  display:flex;
   height:100px;
   z-index:-1;
   size?
